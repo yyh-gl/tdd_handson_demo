@@ -32,7 +32,7 @@ func Test_FizzBuzz(t *testing.T) {
 			name:  "6を送ったらFizzを返す",
 			input: 6,
 			want:  "Fizz",
-		}
+		},
 	}
 
 	for _, test := range testCases {
